@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Pendaftaran</title>
+</head>
+<body>
+
+    <h2> Form Pendaftaran</h2>
+    <form action="" method="post" name="pendaftar">
+        <table>
+       <tr> <td>Nama Depan </td>        <td>:</td> <td> <input type="text" name="Txtnama1"> </td> </tr>
+       <tr> <td> Nama Belakang </td>    <td>:</td> <td> <input type="text" name="Txtnama2"> </td></tr>
+       <tr> <td> Password </td>         <td>:</td> <td> <input type="password" name="Txtpass"> </td> </tr>
+       <tr> <td> Alamat </td>           <td>:</td> <td> <textarea name="Txtalamat" id="" cols="30" rows="5"></textarea> </td>  </tr>
+       <tr> <td> Olahraga Favorit </td> <td>:</td> <td> <input type="checkbox" name="pilih1" value="sepakbola"> Sepakbola &nbsp;
+                                                        <input type="checkbox" name="pilih2" value="bt"> Bulu Tangkis &nbsp;
+                                                        <input type="checkbox" name="pilih3" value="tenis"> Tenis &nbsp; </td> </tr>
+       <tr> <td> Jenis Kelamin </td>    <td>:</td>  <td><input type="radio" name="jenkel" id="" value="P"> Pria &nbsp;
+                                                        <input type="radio" name="jenkel" id="" value="W"> Wanita &nbsp; </td> </tr>
+       <tr> <td> Olahraga </td>         <td>:</td>
+            <td>
+            <Select name="olahraga">
+                <option value="" selected="selected">== Pilih Olahraga ==</option>
+                <option value="sepakbola">Sepakbola</option>
+                <option value="bulutangkis">Bulu Tangkis</option>
+                <option value="tenis">Tenis</option>
+                <option value="Tenismeja">Tenis Meja</option>
+            </Select>
+            </td>
+    </tr>
+
+    
+        <tr> <td></td> <td></td>
+            <td>
+                <input type="submit" name="btnSimpan" value="Submit">
+                <input type="reset" name="btnReset" value="Reset"> 
+            </td> 
+        </tr>
+    </table>
+    </form>
+    
+</body>
+</html>
